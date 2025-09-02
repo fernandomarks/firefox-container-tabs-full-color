@@ -1,27 +1,47 @@
-# Firefox Container Tabs Theme
+# Firefox Container Tabs Full Color Theme
 
-Personalização para Firefox 128+ (testado até 142).
+Customization for Firefox 128+ (tested up to 142).
 
-Este `userChrome.css` pinta toda a aba com a cor do container e remove a barrinha superior.
+This `userChrome.css` colors the entire tab with the container color and removes the top bar.
 
 ---
 
-## 🚀 Instalação
+## 🚀 Prerequisites
 
-1. No Firefox, digite `about:config` e ative:
+- Firefox browser (version 128 or higher)
+- [Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/) extension installed
+- Containers configured and pinned for automatic startup (see setup instructions below)
+
+---
+
+## 📋 Installation
+
+1. In Firefox, type `about:config` and enable:
    ```
    toolkit.legacyUserProfileCustomizations.stylesheets = true
    ```
-2. Digite `about:support` e clique em **Abrir Pasta do Perfil**.
-3. Crie uma pasta chamada `chrome`.
-4. Coloque o arquivo `userChrome.css` dentro dela.
-5. Reinicie o Firefox.
+2. Type `about:support` and click **Open Profile Folder**.
+3. Create a folder called `chrome`.
+4. Place the `userChrome.css` file inside it.
+5. Restart Firefox.
+
+---
+
+## ⚙️ Container Setup
+
+To have your containers automatically open on Firefox startup:
+
+1. Open each container tab you want to persist
+2. Right-click on the tab and select **Pin Tab**
+3. These pinned container tabs will now automatically open when you start Firefox
 
 ---
 
 ## 🎨 Preview
 
 ![Preview das abas](abas.png)
+
+The preview shows pinned container tabs that automatically open with Firefox, each fully colored according to its container theme.
 
 ---
 
